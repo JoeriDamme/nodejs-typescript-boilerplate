@@ -1,4 +1,9 @@
 {
+  "version": "1.0.0",
+  "author": {
+    "name": "Joeri Damme"
+  },
+  "description": "Boilerplate Node.js Typescript project.",
   "name": "boilerplate",
   "packageManager": "yarn@3.6.1",
   "devDependencies": {
