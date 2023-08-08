@@ -24,6 +24,7 @@ Please install `yarn`. See documentation [here](https://yarnpkg.com/getting-star
 - When using Visual Code, everything will be auto formatted on save.
 - Automatic reload when changing files running in `dev` mode.
 - Jest as test tool and coverage.
+- Docker for development and production.
 
 ## Commands
 
@@ -32,6 +33,11 @@ Please install `yarn`. See documentation [here](https://yarnpkg.com/getting-star
 - `yarn lint` Lint the project with `eslint`.
 - `yarn format` Format the files with `prettier`.
 - `yarn test` Run all the `*.test.ts` files in the project.
+
+## Docker
+
+- To start the `development` environment, run `docker-compose -f ./docker/dev/docker-compose.dev.yaml up` in the root of the project.
+- To build a production ready docker image, run `docker build -t yourname/appname -f docker/prod/Dockerfile .` in the root of the project.
 
 ## Known issues
 

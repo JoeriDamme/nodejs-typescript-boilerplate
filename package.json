@@ -24,6 +24,10 @@
     "lint": "eslint .",
     "format": "prettier . --write",
     "dev": "ts-node-dev --respawn ./src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "start": "node ./build/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
