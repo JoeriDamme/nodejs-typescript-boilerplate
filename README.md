@@ -25,6 +25,7 @@ Please install `yarn`. See documentation [here](https://yarnpkg.com/getting-star
 - Automatic reload when changing files running in `dev` mode.
 - Jest as test tool and coverage.
 - Docker for development and production.
+- Pre-commit hooks.
 
 ## Commands
 
