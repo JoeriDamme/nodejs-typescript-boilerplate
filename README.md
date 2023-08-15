@@ -21,6 +21,7 @@ Please install `yarn`. See documentation [here](https://yarnpkg.com/getting-star
 ## Features
 
 - Using Yarn's Plug'n'Play.
+- Zero Install! No `yarn install` required.
 - When using Visual Code, everything will be auto formatted on save.
 - Automatic reload when changing files running in `dev` mode.
 - Jest as test tool and coverage.
